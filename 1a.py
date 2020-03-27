@@ -1,6 +1,6 @@
-from math import sqrt
-a = input("a: ")
-b = input("b: ")
+import math
+a = int(input("a: "))
+b = int(input("b: "))
 
-c = sqrt(a**2 + b**2)
+c = math.sqrt(a**2 + b**2)
 print("hypothenuse=" + str(c) )
